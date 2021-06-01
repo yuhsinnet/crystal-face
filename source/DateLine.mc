@@ -143,6 +143,20 @@ class DateLine extends Ui.Drawable {
 		);
 		x += dc.getTextWidthInPixels(mDayOfWeekString + " ", mFont);
 
+
+
+				// Draw month.
+		dc.setColor(gMonoDarkColour, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(
+			x,
+			mY,
+			mFont,
+			mMonthString,
+			Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
+		);
+
+		x += dc.getTextWidthInPixels(mMonthString + " ", mFont);
+
 		// Draw day.
 		dc.setColor(gMonoLightColour, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(
@@ -152,16 +166,6 @@ class DateLine extends Ui.Drawable {
 			day,
 			Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
 		);
-		x += dc.getTextWidthInPixels(day + " ", mFont);
 
-		// Draw month.
-		dc.setColor(gMonoDarkColour, Graphics.COLOR_TRANSPARENT);
-		dc.drawText(
-			x,
-			mY,
-			mFont,
-			mMonthString,
-			Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER
-		);
 	}
 }

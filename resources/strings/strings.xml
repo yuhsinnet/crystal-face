@@ -8,7 +8,7 @@
 	<string id="MinutesColourTitle">分鐘顏色</string>
 	<string id="LeftGoalMeterTitle">左邊儀表</string>
 	<string id="RightGoalMeterTitle">右邊儀表</string>
-	<string id="CaloriesGoalTitle">C卡路里目標 (1-10,000kCal)</string>
+	<string id="CaloriesGoalTitle">卡路里目標 (1-10,000kCal)</string>
 	<string id="GoalMeterStyleTitle">儀表樣式</string>
 	<string id="MeterDigitsStyleTitle">儀表數字樣式</string>
 	<string id="LocalTimeInCityTitle">添加城市當地時間 (Beta)</string>
@@ -28,7 +28,7 @@
 	<string id="Indicator3Title">指示器 3</string>
 
 	<string id="FromTheme">(跟隨主題)</string>
-	<string id="MonoHighlight">月白 Highlight</string>
+	<string id="MonoHighlight">月白 高亮</string>
 	<string id="Mono">月白</string>
 
 	<string id="AllSegmentsMerged">全部分段 (合併)</string>
@@ -46,13 +46,13 @@
 	<string id="ThemeCornflowerBlueDark">黑底矢車菊藍字</string>
 	<string id="ThemeLemonCreamDark">黑底檸檬奶油色字</string>
 	<string id="ThemeVividYellowDark">黑底檸檬黃字</string>
-	<string id="ThemeDaygloOrangeDark">黑底日光橙</string>
+	<string id="ThemeDaygloOrangeDark">黑底橙色字</string>
 	<string id="ThemeMonoDark">黑底月白色</string>
 	<string id="ThemeMonoLight">白底月白色</string>
 	<string id="ThemeBlueLight">白底藍字</string>
 	<string id="ThemeRedLight">白底紅字</string>
 	<string id="ThemeGreenLight">白底綠字</string>
-	<string id="ThemeDaygloOrangeLight">白底日光橙</string>
+	<string id="ThemeDaygloOrangeLight">白底橙色字</string>
 	<string id="ThemeCornYellowDark">黑底玉米黃</string>
 
 	<string id="Steps">步數</string>
@@ -63,8 +63,8 @@
 
 	<string id="HeartRate">心律</string>
 	<string id="HeartRateLive5s">心律 (Live 5s)</string>
-	<string id="Battery">能量</string>
-	<string id="BatteryHidePercentage">能量 (隱藏百分比)</string>
+	<string id="Battery">電量</string>
+	<string id="BatteryHidePercentage">電量 (隱藏百分比)</string>
 	<string id="Notifications">通知</string>
 	<string id="Calories">卡路里</string>
 	<string id="Distance">距離</string>
